@@ -3,7 +3,7 @@ name: suyu-android-build
 on:
   workflow_dispatch:
   schedule:
-    - cron: "45 0 * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   suyu_android_build:
